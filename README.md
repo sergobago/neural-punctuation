@@ -1,5 +1,5 @@
 # Punctuation restoration using Transformer model
-Project to train fast and accurate punctuation restoration neural network model for production on website.
+Project to train fast and accurate punctuation restoration neural network model for production on website. Project code works for all languages ​​and punctuations. 
 
 ## Prerequirements
 * Python 3.9 for training
@@ -49,10 +49,16 @@ MLSUM dataset;
 
 ## Dataset improvement
 Project using Named Entity Recognition from library [Spacy](https://spacy.io)
-- For RU [ru_core_news_lg](https://spacy.io/models/ru)
-- For EN [en_core_news_lg](https://spacy.io/models/en)
-- For FR [fr_core_news_lg](https://spacy.io/models/fr)
-- For DE [de_core_news_lg](https://spacy.io/models/de)
+#### RU
+[ru_core_news_lg](https://spacy.io/models/ru)
+#### EN
+[en_core_news_lg](https://spacy.io/models/en)
+#### FR
+[fr_core_news_lg](https://spacy.io/models/fr)
+#### DE 
+[de_core_news_lg](https://spacy.io/models/de)
+
+## 
 
 ## Credits
 Our article on [habr.ru](https://habr.ru)
