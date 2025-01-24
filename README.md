@@ -9,13 +9,6 @@ venv\Scripts\activate;
 pip install pipenv;
 pipenv install --dev;
 ```
-## Demo
-#### Website RU
-https://tool-tube.com/punctuation
-#### Description website
-The neural network COMMA and DOT models is always in RAM for high speed.
-#### Server specifications
-CPU cores 3; RAM 8 GB
 ## Main.py
 #### Dataset processing
 ```
@@ -62,6 +55,13 @@ Project using Named Entity Recognition from library [Spacy](https://spacy.io) fo
 - [en_core_web_lg](https://spacy.io/models/en)
 - [fr_core_news_lg](https://spacy.io/models/fr)
 - [de_core_news_lg](https://spacy.io/models/de)
+## Demo
+#### Website RU
+https://tool-tube.com/punctuation
+#### Description website
+The neural network COMMA and DOT models is always in RAM for high speed.
+#### Server specifications
+CPU cores 3; RAM 8 GB
 ## Credits
 My article on [habr.ru](https://habr.ru). Project is written based on code from repositories: 
 - [sviperm/neuro-comma](https://github.com/sviperm/neuro-comma)
