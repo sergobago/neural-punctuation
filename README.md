@@ -15,7 +15,9 @@ pipenv install --dev;
 ## Demo
 #### Website RU
 https://tool-tube.com/punctuation
-#### 
+#### Server specifications
+CPU cores 3; RAM 8 GB;
+The neural network COMMA and DOT models is always in RAM for high speed
 
 ## Main.py
 #### Dataset processing
