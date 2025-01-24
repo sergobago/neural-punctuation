@@ -42,11 +42,16 @@ CPU cores 3; RAM 8 GB
 2) Bi-LSTM layer
 3) Linear layer
 
-## xlm-roberta-base
-#### File
-The model weighs 1.2 GB on the hard drive
-#### RAM
-The model weighs 2.4 GB in RAM
+## Comparison transformers
+#### xlm-roberta-base
+The model weighs weighs 1.2 GB on the hard drive and 2.4 GB in RAM.
+Training is 2x faster, so you can experiment with the dataset and input data for the neural network. Quickly places punctuation and puts less load on production server CPU.
+#### xlm-roberta-large
+The model weighs weighs 2.4 GB on the hard drive and 4.8 GB in RAM.
+Long waiting time for neural network training. Possible overtraining and accuracy will be worse than xlm-roberta-base.
+
+#### Conclusion
+Use xlm-roberta-base. The accuracy is more influenced by dataset and input data than size of neural network.
 
 ## Recommended datasets
 #### RU
