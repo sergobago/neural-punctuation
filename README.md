@@ -18,7 +18,7 @@ https://tool-tube.com/punctuation
 #### Description
 The neural network COMMA and DOT models is always in RAM for high speed
 #### Specifications
-CPU cores 3; RAM 8 GB.
+CPU cores 3; RAM 8 GB
 
 ## Main.py
 #### Dataset processing
@@ -41,6 +41,12 @@ CPU cores 3; RAM 8 GB.
 1) Pre-trained model FacebookAI/xlm-roberta-base
 2) Bi-LSTM layer
 3) Linear layer
+
+## xlm-roberta-base
+#### File
+The model weighs 1.2 GB on the hard drive
+#### RAM
+The model weighs 2.4 GB in RAM
 
 ## Recommended datasets
 #### RU
