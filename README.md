@@ -1,4 +1,4 @@
-# Neural-punctuation
+# Punctuation restoration using transformer model
 Project to train fast and accurate punctuation restoration neural network model for production on website.
 
 ## Prerequirements
