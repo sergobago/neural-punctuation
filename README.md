@@ -16,7 +16,7 @@ pipenv install --dev;
 #### Website RU
 https://tool-tube.com/punctuation
 #### Description website
-The neural network COMMA and DOT models is always in RAM for high speed
+The neural network COMMA and DOT models is always in RAM for high speed. Comma restoration is used by 1000+ users per day.
 #### Server specifications
 CPU cores 3; RAM 8 GB
 
