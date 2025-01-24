@@ -63,7 +63,7 @@ Project using Named Entity Recognition from library [Spacy](https://spacy.io) fo
 - [fr_core_news_lg](https://spacy.io/models/fr)
 - [de_core_news_lg](https://spacy.io/models/de)
 ## Credits
-Our article on [habr.ru](https://habr.ru)
+My article on [habr.ru](https://habr.ru)
 Project is written based on code from repositories: 
 - [sviperm/neuro-comma](https://github.com/sviperm/neuro-comma)
 - [xashru/punctuation-restoration](https://github.com/xashru/punctuation-restoration)
