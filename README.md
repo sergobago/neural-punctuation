@@ -66,7 +66,7 @@ MLSUM dataset;
 MLSUM dataset;
 
 ## Dataset improvement
-Project using Named Entity Recognition from library [Spacy](https://spacy.io) for best accuracy
+Project using Named Entity Recognition from library [Spacy](https://spacy.io) for best accuracy. Download pipeline for desired language to folder /nmodels/spacy/YOUR LANGUAGE/. Pipelines:
 - [ru_core_news_lg](https://spacy.io/models/ru)
 - [en_core_web_lg](https://spacy.io/models/en)
 - [fr_core_news_lg](https://spacy.io/models/fr)
