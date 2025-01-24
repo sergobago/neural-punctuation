@@ -39,23 +39,13 @@ https://tool-tube.com/punctuation
 
 ## Recommended datasets
 #### RU
-- Gazeta dataset
-- Lenta.ru news dataset
-- mc4 clean dataset
-- MLSUM dataset
-- MuSeRC dataset 
-- WikiLingua dataset
+Gazeta dataset; Lenta.ru news dataset; mc4 clean dataset; MLSUM dataset; MuSeRC dataset; WikiLingua dataset;
 #### EN
-- AG News dataset 
-- CC-News dataset
-- CNN/Daily Mail dataset
-- Multi-News dataset
-- XL-Sum dataset
-- yelp_review_full dataset
+AG News dataset; CC-News dataset; CNN/Daily Mail dataset; Multi-News dataset; XL-Sum dataset; yelp_review_full dataset;
 #### FR
-- MLSUM dataset
+MLSUM dataset;
 #### DE
-- MLSUM dataset
+MLSUM dataset;
 
 ## Credits
 Our article on [habr.ru](https://habr.ru)
