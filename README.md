@@ -12,7 +12,7 @@ pip install pipenv;
 pipenv install --dev;
 ```
 
-## Demo
+## Demo RU
 https://tool-tube.com/punctuation
 
 ## Main.py
@@ -36,6 +36,26 @@ https://tool-tube.com/punctuation
 1) Pre-trained model FacebookAI/xlm-roberta-base
 2) Bi-LSTM layer
 3) Linear layer
+
+## Recommended datasets
+#### RU
+- Gazeta dataset
+- Lenta.ru news dataset
+- mc4 clean dataset
+- MLSUM dataset
+- MuSeRC dataset 
+- WikiLingua dataset
+#### EN
+- AG News dataset 
+- CC-News dataset
+- CNN/Daily Mail dataset
+- Multi-News dataset
+- XL-Sum dataset
+- yelp_review_full dataset
+#### FR
+- MLSUM dataset
+#### DE
+- MLSUM dataset
 
 ## Credits
 Our article on [habr.ru](https://habr.ru)
