@@ -16,17 +16,17 @@ pipenv install --dev;
 https://tool-tube.com/punctuation
 
 ## Main.py
-### Dataset processing
+#### Dataset processing
 ```
     parse_datasets(dataset_dir) # Преобразовать датасеты *.csv, *.json в файлы *.txt
     normalize_datasets(dataset_dir) # Обработать тексты датасетов  *.txt в текстовые файлы *.normalized
     merge_train_datasets(dataset_dir, language) # Объединить датасеты *.normalized в файл summary_train.dataset
 ```
-### Training
+#### Training
 ```
     fit(language, PUNCTUATION_TYPES['COMMA']) # Чем больше гигабайт ОБРАБОТАННЫЙ датасет, тем лучше результат расстановка запятых, иначе результат будет плохой
 ```
-### Inference
+#### Inference
 ```
     predict = inference(language, 'Привет как дела друг', PUNCTUATION_TYPES['COMMA'])
     print('Результат: ' + predict[0])
