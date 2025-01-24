@@ -49,14 +49,10 @@ MLSUM dataset;
 
 ## Dataset improvement
 Project using Named Entity Recognition from library [Spacy](https://spacy.io)
-#### RU
-[ru_core_news_lg](https://spacy.io/models/ru)
-#### EN
-[en_core_news_lg](https://spacy.io/models/en)
-#### FR
-[fr_core_news_lg](https://spacy.io/models/fr)
-#### DE 
-[de_core_news_lg](https://spacy.io/models/de)
+- [ru_core_news_lg](https://spacy.io/models/ru)
+- [en_core_news_lg](https://spacy.io/models/en)
+- [fr_core_news_lg](https://spacy.io/models/fr)
+- [de_core_news_lg](https://spacy.io/models/de)
 
 ## 
 
