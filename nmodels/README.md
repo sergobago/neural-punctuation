@@ -1,5 +1,5 @@
 В папку spacy скачайте для языков модели с официального сайта:
-В папку spacy/ru скачать ru_core_news_lg по ссылке https://spacy.io/models/ru (Использовалась версия 3.7.0)
+В папку spacy/ru скачать ru_core_news_lg по ссылке https://spacy.io/models/ru
 В папку spacy/en скачать en_core_news_lg по ссылке https://spacy.io/models/en
 В папку spacy/fr скачать fr_core_news_lg по ссылке https://spacy.io/models/fr
 В папку spacy/de скачать de_core_news_lg по ссылке https://spacy.io/models/de
