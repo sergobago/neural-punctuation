@@ -58,9 +58,9 @@ Project using Named Entity Recognition from library [Spacy](https://spacy.io) fo
 ## Demo
 #### Website RU
 https://tool-tube.com/punctuation
-#### Description website
-The neural network COMMA and DOT models is always in RAM for high speed.
-#### Server specifications
+#### Description
+Trained on 9 GB of RU text dataset. The neural network COMMA and DOT models is always in RAM for high speed.
+#### Specifications
 CPU cores 3; RAM 8 GB.
 ## Credits
 My article on [habr.ru](https://habr.ru). Project is written based on code from repositories: 
