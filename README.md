@@ -61,7 +61,7 @@ https://tool-tube.com/punctuation
 #### Description website
 The neural network COMMA and DOT models is always in RAM for high speed.
 #### Server specifications
-CPU cores 3; RAM 8 GB
+CPU cores 3; RAM 8 GB.
 ## Credits
 My article on [habr.ru](https://habr.ru). Project is written based on code from repositories: 
 - [sviperm/neuro-comma](https://github.com/sviperm/neuro-comma)
