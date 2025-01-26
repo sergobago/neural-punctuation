@@ -37,7 +37,7 @@ Training is faster, so you can experiment with the dataset and input data for th
 #### xlm-roberta-large
 Multilingual model.
 The model weighs weighs 2.4 GB on the hard drive and 4.8 GB in RAM.
-Long waiting time for neural network training. Possible overtraining, then accuracy will be worse than xlm-roberta-base. Requires more time and server resources to use in production.
+2x longer waiting time for neural network training. Possible overtraining, then accuracy will be worse than xlm-roberta-base. Requires more time and server resources to use in production.
 ## Recommended datasets
 #### RU
 Gazeta dataset; Lenta.ru news dataset; mc4 clean dataset; MLSUM dataset; MuSeRC dataset; WikiLingua dataset;
