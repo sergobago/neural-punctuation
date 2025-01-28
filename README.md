@@ -1,4 +1,4 @@
-# Punctuation restoration using Transformer model
+# Punctuation restoration using transformer
 Project to train fast and accurate punctuation restoration neural network model for production on website. Project code works for all languages ​​and punctuations. Each language will have a separate model. Commas and dots will have a separate model to best accuracy.
 ## Prerequirements
 * Python 3.9 for training
