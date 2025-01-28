@@ -44,6 +44,17 @@ RU: {
 },
 ...
 ```
+## Training options
+```
+SEED = 1
+EPOCHS = 1
+BATCH_SIZE = 4
+WEIGHT_DECAY = 0
+AUGMENT_RATE_DOT = 0.15
+AUGMENT_RATE_COMMA = 0.15
+LEARNING_RATE = 5e-6
+NUMBER_USED_CPU_CORES = 2
+```
 ## Comparison transformers
 #### xlm-roberta-base
 Multilingual model.
