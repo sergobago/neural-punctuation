@@ -31,7 +31,7 @@ pipenv install --dev;
 3) Linear layer
 ## Model options
 ```
-RU: {
+    RU: {
         'BASIS': 'FacebookAI/xlm-roberta-base',
         'DATASET_TRAIN': 'summary_train.dataset',
         'DATASET_VALIDATION': 'summary_validation.dataset',
@@ -41,8 +41,8 @@ RU: {
         'UNK': 3,
         'CLS': 0,
         'SEP': 2,
-},
-...
+    },
+    ...
 ```
 ## Comparison transformers
 #### xlm-roberta-base
