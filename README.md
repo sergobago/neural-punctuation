@@ -30,7 +30,6 @@ pipenv install --dev;
 2) Bi-LSTM layer
 3) Linear layer
 ## Model options
-#### /constants/punctuation.py
 ```
 RU: {
     'BASIS': 'FacebookAI/xlm-roberta-base',
