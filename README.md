@@ -55,6 +55,13 @@ AUGMENT_RATE_COMMA = 0.15
 LEARNING_RATE = 5e-6
 NUMBER_USED_CPU_CORES = 2
 ```
+```
+DOT_PUNCTUATION_DICTIONARY = { '': 0, '.': 1, '?': 2 }
+COMMA_PUNCTUATION_DICTIONARY = { '': 0, ',': 1 }
+FREEZED_PRETRAINED_MODEL = False
+HIDDEN_DROPOUT = 0.1
+ATTENTION_DROPOUT = 0.1
+```
 ## Comparison transformers
 #### xlm-roberta-base
 Multilingual model.
