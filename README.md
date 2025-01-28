@@ -29,6 +29,21 @@ pipenv install --dev;
 1) Pre-trained model FacebookAI/xlm-roberta-base
 2) Bi-LSTM layer
 3) Linear layer
+## Model options
+```
+RU: {
+        'BASIS': 'FacebookAI/xlm-roberta-base',
+        'DATASET_TRAIN': 'summary_train.dataset',
+        'DATASET_VALIDATION': 'summary_validation.dataset',
+        'INPUT_LENGTH': 256,
+        'HIDDEN_DIM': 768,
+        'PAD': 1,
+        'UNK': 3,
+        'CLS': 0,
+        'SEP': 2,
+},
+...
+```
 ## Comparison transformers
 #### xlm-roberta-base
 Multilingual model.
