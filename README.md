@@ -64,11 +64,11 @@ ATTENTION_DROPOUT = 0.1
 ## Comparison transformers
 #### xlm-roberta-base
 Multilingual model.
-The model weighs weighs 1.2 GB on the hard drive and 2.4 GB in RAM.
+The model weighs 1.2 GB.
 Training is faster, so you can experiment with the dataset and input data for the neural network. Quickly places punctuation and puts less load on production server CPU.
 #### xlm-roberta-large
 Multilingual model.
-The model weighs weighs 2.4 GB on the hard drive and 4.8 GB in RAM.
+The model weighs 2.4 GB.
 2x longer waiting time for neural network training. Possible overtraining, then accuracy will be worse than xlm-roberta-base. Requires more time and server resources to use in production.
 ## Recommended datasets
 #### RU
