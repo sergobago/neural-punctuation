@@ -13,16 +13,14 @@ if __name__ == '__main__':
     dataset_dir = join(DATASET_DIR, language)
     print('dataset_dir', dataset_dir)
 
-    # Обработка датасетов
-    # parse_datasets(dataset_dir) # Преобразовать датасеты *.csv, *.json в файлы *.txt
-    # normalize_datasets(dataset_dir) # Обработать тексты датасетов  *.txt в текстовые файлы *.normalized
-    # merge_train_datasets(dataset_dir, language) # Объединить датасеты *.normalized в файл summary_train.dataset
+    # Подготовка датасетов
+    parse_datasets(dataset_dir) # Распарсить и сохранить датасеты в файлы *.txt
+    normalize_datasets(dataset_dir) # Обработать текстовые датасеты в файлы *.normalized
+    merge_train_datasets(dataset_dir, language) # Объединить обработанные датасеты в файл summary_train.dataset
 
-    # Обучение нейронной сети для заданного языка и выбранного типа пунктуации, где COMMA - запятые, DOT - точки/знаки вопроса
-    # При обучении на слишком маленьких датасетах у модели будет val_acc=0.00000000
-    # На датасетах любого языка от нескольких гигабайт нужно максимум 1 или 2 эпохи, дальше переобучение и ухудшение результата
-    fit(language, PUNCTUATION_TYPES['COMMA']) # Чем больше гигабайт ОБРАБОТАННЫЙ датасет, тем лучше результат расстановки запятых, иначе результат будет плохой
+    # Тренировка нейронной сети: COMMA - запятые, DOT - точки/знаки вопроса
+    fit(language, PUNCTUATION_TYPES['COMMA']) # Чем больше гигабайт обработанный датасет, тем лучше результат
 
-    # Расстанавка запятых с помощью обученной модели в папке nmodels/COMMA/язык
-    # predict = inference(language, 'Привет как дела друг', PUNCTUATION_TYPES['COMMA'])
-    # print('Результат: ' + predict[0])
+    # Тестирование натренированной модели
+    predict = inference(language, 'Привет как дела учитель', PUNCTUATION_TYPES['COMMA'])
+    print('Результат: ' + predict[0])
