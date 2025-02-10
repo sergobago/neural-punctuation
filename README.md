@@ -18,11 +18,11 @@ merge_train_datasets(dataset_dir, language) # Объединить обрабо�
 ```
 #### Training
 ```
-fit(language, PUNCTUATION_TYPES['COMMA']) # Чем больше гигабайт датасет, тем лучше будет результат расстановки запятых
+fit(language, PUNCTUATION_TYPES['COMMA']) # Чем больше гигабайт обработанный датасет, тем лучше результат
 ```
 #### Inference
 ```
-predict = inference(language, 'Привет как дела друг', PUNCTUATION_TYPES['COMMA'])
+predict = inference(language, 'Привет как дела учитель', PUNCTUATION_TYPES['COMMA'])
 print('Результат: ' + predict[0])
 ```
 ## Model architecture
