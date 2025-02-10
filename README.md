@@ -86,7 +86,7 @@ Trained on 9 GB of RU text dataset. The neural network COMMA and DOT models is a
 #### Specifications
 CPU cores 3; RAM 8 GB.
 ## Credits
-My article on [habr.ru](https://habr.ru). Project is written based on code from repositories: 
+My article on [habr.ru](https://habr.com/ru/sandbox/237138/). Project is written based on code from repositories: 
 - [sviperm/neuro-comma](https://github.com/sviperm/neuro-comma)
 - [xashru/punctuation-restoration](https://github.com/xashru/punctuation-restoration)
 - [vlomme/Bert-Russian-punctuation](https://github.com/vlomme/Bert-Russian-punctuation)
