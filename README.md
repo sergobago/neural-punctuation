@@ -12,13 +12,13 @@ pipenv install --dev;
 ## Main.py
 #### Dataset processing
 ```
-parse_datasets(dataset_dir) # Преобразовать датасеты *.csv, *.json в файлы *.txt
-normalize_datasets(dataset_dir) # Обработать тексты датасетов  *.txt в текстовые файлы *.normalized
-merge_train_datasets(dataset_dir, language) # Объединить датасеты *.normalized в файл summary_train.dataset
+parse_datasets(dataset_dir) # Распарсить и сохранить датасеты в файлы *.txt
+normalize_datasets(dataset_dir) # Обработать текстовые датасеты в файлы *.normalized
+merge_train_datasets(dataset_dir, language) # Объединить обработанные датасеты в файл summary_train.dataset
 ```
 #### Training
 ```
-fit(language, PUNCTUATION_TYPES['COMMA']) # Чем больше гигабайт обработанный датасет, тем лучше результат расстановки запятых, иначе результат будет плохой
+fit(language, PUNCTUATION_TYPES['COMMA']) # Чем больше гигабайт датасет, тем лучше будет результат расстановки запятых
 ```
 #### Inference
 ```
